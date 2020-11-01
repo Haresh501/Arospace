@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreService", "CoreService\CoreService.csproj", "{C5776722-599F-43AD-AB9E-FA0024D1D67D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "newAngApp", "newAngApp\newAngApp.csproj", "{FB29802C-DBD6-4C01-B469-5E71DAC683D4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5776722-599F-43AD-AB9E-FA0024D1D67D} = {C5776722-599F-43AD-AB9E-FA0024D1D67D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5776722-599F-43AD-AB9E-FA0024D1D67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5776722-599F-43AD-AB9E-FA0024D1D67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5776722-599F-43AD-AB9E-FA0024D1D67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5776722-599F-43AD-AB9E-FA0024D1D67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB29802C-DBD6-4C01-B469-5E71DAC683D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB29802C-DBD6-4C01-B469-5E71DAC683D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB29802C-DBD6-4C01-B469-5E71DAC683D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB29802C-DBD6-4C01-B469-5E71DAC683D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {702043E3-A69F-4CC4-B893-BC7E72E32303}
+	EndGlobalSection
+EndGlobal

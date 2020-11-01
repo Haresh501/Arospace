@@ -1,0 +1,28 @@
+<div *ngIf="hideShowAlertMsg" [ngClass]="colorCode === 'success' ? 'alert-success' : 'alert-danger'" class="alert alert-dismissible fade in col-md-10">
+  <strong>{{successMsg}}</strong>
+</div>
+
+<div>
+  <div>Add Category</div>
+
+  <div><input type="text" name="txtcategory" [(ngModel)]="objCategory" class="form-control" /></div>
+
+  <div> <button name='btnAddCategory' id='btnAddCategory' (click)="AddCategory()">Add Category</button></div>
+</div>
+
+<br />
+<br />
+<br />
+
+<div>
+  <ul>
+    <li *ngFor="let cat of rowDataName">
+      {{ cat.name }}
+    </li>
+  </ul>
+</div>
+
+
+
+
+
